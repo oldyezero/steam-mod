@@ -8,6 +8,15 @@
 	"hasPower": true,
 	"hasItems": true,
 	"hasLiquids": true,
+	"consumeEffect": {
+				"type": "ParticleEffect",
+				"particles": 16,
+				"length": 12,
+				"colorFrom": "e0e0e0",
+				"colorTo": "c4c4c4",
+				"sizeFrom": 0,
+				"sizeTo": 3
+			},
 	"powerProduction": 11.33,
 	"consumes": {
 		"liquid": {
