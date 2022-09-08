@@ -29,5 +29,39 @@
 	"category": "crafting",
 	"research": "mechanical-drill",
 	"idleSound": "respawning",
-	"idleSoundVolume": 0.5
+	"idleSoundVolume": 0.5,
+	"craftEffect": {
+		"type": "MultiEffect",
+		"effects": [
+			{
+				"type": "WaveEffect",
+				"sizeFrom": 0,
+				"sizeTo": 12,
+				"colorFrom": "e0e0e0",
+				"colorTo": "c4c4c4"
+			},
+			{
+				"type": "ParticleEffect",
+				"particles": 16,
+				"length": 12,
+				"colorFrom": "e0e0e0",
+				"colorTo": "c4c4c4",
+				"sizeFrom": 0,
+				"sizeTo": 6
+			}
+		]
+	}
+	"drawer": {	
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawLiquidRegion",
+				"liquid": "water",
+				"suffix": "-liquid"
+			},
+			{
+				"type": "DrawDefault"
+			}
+		]
+	}
 }
