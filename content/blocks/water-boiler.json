@@ -9,6 +9,7 @@
 	"hasLiquids": true,
 	"hasItems": true,
 	"craftTime": 150,
+	"updateEffect": "none",
 	"updateEffect": "smeltsmoke",
 	"consumes": {
 		"items": {
@@ -36,18 +37,18 @@
 			{
 				"type": "WaveEffect",
 				"sizeFrom": 0,
-				"sizeTo": 12,
+				"sizeTo": 20,
 				"colorFrom": "e0e0e0",
 				"colorTo": "c4c4c4"
 			},
 			{
 				"type": "ParticleEffect",
-				"particles": 16,
+				"particles": 8,
 				"length": 12,
 				"colorFrom": "e0e0e0",
 				"colorTo": "c4c4c4",
 				"sizeFrom": 0,
-				"sizeTo": 6
+				"sizeTo": 2
 			}
 		]
 	}
@@ -55,12 +56,12 @@
 		"type": "DrawMulti",
 		"drawers": [
 			{
+				"type": "DrawDefault"
+			},
+			{
 				"type": "DrawLiquidRegion",
 				"drawLiquid": "water",
 				"suffix": "-liquid"
-			},
-			{
-				"type": "DrawDefault"
 			}
 		]
 	}
