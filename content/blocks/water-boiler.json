@@ -37,18 +37,18 @@
 			{
 				"type": "WaveEffect",
 				"sizeFrom": 0,
-				"sizeTo": 20,
+				"sizeTo": 17,
 				"colorFrom": "e0e0e0",
 				"colorTo": "c4c4c4"
 			},
 			{
 				"type": "ParticleEffect",
-				"particles": 8,
+				"particles": 16,
 				"length": 12,
 				"colorFrom": "e0e0e0",
 				"colorTo": "c4c4c4",
 				"sizeFrom": 0,
-				"sizeTo": 2
+				"sizeTo": 3
 			}
 		]
 	}
