@@ -38,7 +38,8 @@
 				"sizeFrom": 0,
 				"sizeTo": 17,
 				"colorFrom": "e0e0e0",
-				"colorTo": "c4c4c4"
+				"colorTo": "c4c4c4",
+				"lifetime": 120
 			},
 			{
 				"type": "ParticleEffect",
