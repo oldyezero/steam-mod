@@ -40,7 +40,7 @@
 			{
 				"type": "DrawLiquidRegion",
         "suffix": "-liquid",
-        "drawLiquid": "water"
+        "drawLiquid": "steam"
 			},
 			{
 				"type": "DrawWeave"
