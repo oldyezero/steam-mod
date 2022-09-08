@@ -21,5 +21,18 @@
 		{ "item": "copper", "amount": 50 }
 	],
 	"category": "power",
-	"research": "mechanical-drill"
+	"research": "mechanical-drill",
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawDefault"
+			},
+			{
+				"type": "DrawLiquidRegion",
+        "suffix": "-liquid",
+        "drawLiquid": "water"
+			}
+		]
+	}
 }
