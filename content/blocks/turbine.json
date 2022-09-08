@@ -15,7 +15,9 @@
 				"colorFrom": "e0e0e0",
 				"colorTo": "c4c4c4",
 				"sizeFrom": 0,
-				"sizeTo": 3
+				"sizeTo": 3,
+				"interp": "pow2Out",
+				"lifetime": 90
 			},
 	"powerProduction": 11.33,
 	"consumes": {
