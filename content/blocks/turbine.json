@@ -32,6 +32,9 @@
 				"type": "DrawLiquidRegion",
         "suffix": "-liquid",
         "drawLiquid": "water"
+			},
+			{
+				"type": "DrawWeave"
 			}
 		]
 	}
