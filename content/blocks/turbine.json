@@ -3,7 +3,7 @@
 	"name": "Turbine",
 	"description": "Uses steam to rotate its blades, outputs the cooled down steam",
 	"liquidCapacity": 20,
-	"outputLiquid": {"liquid": "water", "amount": 0.1},
+	"outputLiquid": {"liquid": "water", "amount": 0.06},
 	"size": 2,
 	"hasPower": true,
 	"hasItems": true,
@@ -23,16 +23,16 @@
 	"consumes": {
 		"liquid": {
 			"liquid": "steam",
-			"amount": 0.1
+			"amount": 0.15
 		}
 	},
 	"requirements": [
-		{ "item": "metaglass", "amount": 80 },
-		{ "item": "silicon", "amount": 60 },
-		{ "item": "copper", "amount": 50 }
+		{ "item": "copper", "amount": 55 },
+		{ "item": "lead", "amount": 70 },
+		{ "item": "silicon", "amount": 40 }
 	],
 	"category": "power",
-	"research": "mechanical-drill",
+	"research": "water-boiler",
 	"drawer": {
 		"type": "DrawMulti",
 		"drawers": [

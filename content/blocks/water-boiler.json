@@ -3,12 +3,12 @@
 	"name": "Water Boiler",
 	"description": "Uses coal to boil water",
 	"liquidCapacity": 20,
-	"outputLiquid": {"liquid": "steam", "amount": 0.05},
+	"outputLiquid": {"liquid": "steam", "amount": 0.084444},
 	"size": 2,
 	"hasPower": false,
 	"hasLiquids": true,
 	"hasItems": true,
-	"craftTime": 150,
+	"craftTime": 120,
 	"updateEffect": "none",
 	"consumes": {
 		"items": {
@@ -22,12 +22,13 @@
 		}
 	},
 	"requirements": [
-		{ "item": "copper", "amount": 80 },
+		{ "item": "copper", "amount": 45 },
 		{ "item": "lead", "amount": 50 },
-		{ "item": "graphite", "amount": 30 },
+		{ "item": "graphite", "amount": 25 },
+		{ "item": "metaglass", "amount": 20 },
 	],
 	"category": "crafting",
-	"research": "mechanical-drill",
+	"research": "power-node",
 	"idleSound": "respawning",
 	"idleSoundVolume": 0.5,
 	"craftEffect": {
