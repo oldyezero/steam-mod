@@ -4,13 +4,22 @@
 
 <br>
 
-A small mod that adds steam to the game and <br>
+A small mod for the game **[Mindustry]** that adds steam to the game and <br>
 adds a way to use it for power and similar matters.
 
 <br>
 
 ![Badge Blocks]
 ![Badge Liquids]
+
+##Acknowledgment
+
+-   **[Shield.io]** was used for badges.
+
+<!----------------------------------------------------------------------------->
+
+[Mindustry]: https://github.com/Anuken/Mindustry
+[Shield.io]: https://shields.io
 
 <!----------------------------------[ Badges ]--------------------------------->
 
