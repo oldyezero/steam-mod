@@ -12,6 +12,10 @@ to the game and adds a way to use it for power and similar matters.
 ![Badge Blocks]
 ![Badge Liquids]
 
+<br>
+
+![Repo Size]
+
 </div>
   
 ## Acknowledgment
@@ -27,3 +31,4 @@ to the game and adds a way to use it for power and similar matters.
 
 [Badge Blocks]: https://img.shields.io/github/directory-file-count/oldyezero/steam-mod/content/blocks?label=Blocks&style=plastic
 [Badge Liquids]: https://img.shields.io/github/directory-file-count/oldyezero/steam-mod/content/liquids?label=Liquids&style=plastic
+[Repo Size]: https://img.shields.io/github/repo-size/oldyezero/steam-mod?label=Repo%20Size&style=plastic
