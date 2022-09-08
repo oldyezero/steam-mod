@@ -14,7 +14,7 @@ adds a way to use it for power and similar matters.
 
 </div>
   
-##Acknowledgment
+## Acknowledgment
 
 -   **[Shield.io]** was used for badges.
 
