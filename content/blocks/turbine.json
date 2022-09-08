@@ -3,7 +3,7 @@
 	"name": "Turbine",
 	"description": "Uses steam to rotate its blades, outputs the cooled down steam",
 	"liquidCapacity": 20,
-	"outputLiquid": {"liquid": "water", "amount": 0.0666},
+	"outputLiquid": {"liquid": "water", "amount": 0.06666},
 	"size": 2,
 	"hasPower": true,
 	"hasItems": true,
