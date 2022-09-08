@@ -56,7 +56,7 @@
 		"drawers": [
 			{
 				"type": "DrawLiquidRegion",
-				"liquid": "water",
+				"drawLiquid": "water",
 				"suffix": "-liquid"
 			},
 			{
