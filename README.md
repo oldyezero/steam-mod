@@ -1,6 +1,9 @@
 <div align = center>
   
-# Steam Mod
+![Commits]
+![Issues]
+
+  # Steam Mod
 
 <br>
 
@@ -21,6 +24,8 @@ to the game and adds a way to use it for power and similar matters.
 
 <!----------------------------------------------------------------------------->
 
+[Commits]: https://github.com/Fresh791/Fading-Revelations/commits/main
+[Issues]: https://github.com/Fresh791/Fading-Revelations/issues
 [Mindustry]: https://github.com/Anuken/Mindustry
 [Shield.io]: https://shields.io
 
