@@ -4,8 +4,8 @@
 
 <br>
 
-A small mod for the game **[Mindustry]** that adds steam to the game and <br>
-adds a way to use it for power and similar matters.
+A small mod for the game **[Mindustry]** that adds **steam** <br> 
+to the game and adds a way to use it for power and similar matters.
 
 <br>
 
