@@ -3,7 +3,7 @@
 	"name": "Water Boiler",
 	"description": "Uses coal to boil water",
 	"liquidCapacity": 20,
-	"outputLiquid": {"liquid": "steam", "amount": 0.084444},
+	"outputLiquid": {"liquid": "steam", "amount": 0.083333},
 	"size": 2,
 	"hasPower": false,
 	"hasLiquids": true,
