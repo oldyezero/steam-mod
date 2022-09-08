@@ -10,10 +10,7 @@ to the game and adds a way to use it for power and similar matters.
 <br>
 
 ![Badge Blocks]
-![Badge Liquids]
-
-<br>
-
+![Badge Liquids] <br>
 ![Repo Size]
 
 </div>
