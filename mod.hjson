@@ -1,0 +1,8 @@
+name: "steam-mod"
+displayName: "Steam Mod"
+author: oldyezero
+description: "Mod that adds steam to the game, used in various applications"
+version: "1.0"
+minGameVersion: "138"
+dependencies: [ ]
+hidden: false

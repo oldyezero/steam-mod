@@ -1,0 +1,9 @@
+{
+	"name": "Steam",
+	"description": "Water on its gaseous form",
+	"gas": true,
+	"temperature": 1,
+    "viscosity": 0.2,
+    "effect": "wet",
+    "color": "ececec"
+}

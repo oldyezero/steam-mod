@@ -1,0 +1,33 @@
+{
+	"type": "GenericCrafter",
+	"name": "Water Boiler",
+	"description": "Uses coal to boil water",
+	"liquidCapacity": 20,
+	"outputLiquid": {"liquid": "steam", "amount": 0.1},
+	"size": 2,
+	"hasPower": false,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 150,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"items": {
+			"items": [
+				{ "item": "coal", "amount": 1 }
+			]
+		},
+		"liquid": {
+			"liquid": "water",
+			"amount": 0.1
+		}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 80 },
+		{ "item": "lead", "amount": 50 },
+		{ "item": "graphite", "amount": 30 },
+	],
+	"category": "crafting",
+	"research": "mechanical-drill",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

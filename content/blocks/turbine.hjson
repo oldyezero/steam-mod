@@ -1,0 +1,25 @@
+{
+	"type": "ConsumeGenerator",
+	"name": "Turbine",
+	"description": "Uses steam to rotate its blades, outputs the cooled down steam",
+	"liquidCapacity": 20,
+	"outputLiquid": {"liquid": "water", "amount": 0.1},
+	"size": 2,
+	"hasPower": true,
+	"hasItems": true,
+	"hasLiquids": true,
+	"powerProduction": 11.33,
+	"consumes": {
+		"liquid": {
+			"liquid": "steam",
+			"amount": 0.1
+		}
+	},
+	"requirements": [
+		{ "item": "metaglass", "amount": 80 },
+		{ "item": "silicon", "amount": 60 },
+		{ "item": "copper", "amount": 50 }
+	],
+	"category": "power",
+	"research": "mechanical-drill"
+}
