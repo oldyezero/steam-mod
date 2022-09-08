@@ -9,7 +9,7 @@ adds a way to use it for power and similar matters.
 
 <br>
 
-![Badge Block]
+![Badge Blocks]
 
 <!----------------------------------[ Badges ]--------------------------------->
 
