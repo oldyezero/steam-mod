@@ -12,6 +12,8 @@ adds a way to use it for power and similar matters.
 ![Badge Blocks]
 ![Badge Liquids]
 
+</div>
+  
 ##Acknowledgment
 
 -   **[Shield.io]** was used for badges.
