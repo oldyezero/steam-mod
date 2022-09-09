@@ -4,6 +4,7 @@
   "type": "LiquidTurret",
   "scaledHealth": 175,
   "size": 3,
+  "hasLiquids": true,
   "category": "turret",
   "research": "steam-turret",
   "outputLiquid": {"liquid": "steam", "amount": 0.1},
