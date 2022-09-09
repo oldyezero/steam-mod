@@ -9,6 +9,7 @@
     {"item": "metaglass", "amount": 250}
   ],
   "category": "turret",
+  "drawer": "DrawDefault",
   "research": "duo",
   "heatColor": "ffffff",
   "liquidConsumed": 0.1,
