@@ -22,12 +22,18 @@ to the game and adds a way to use it for power and similar matters.
 
 -   **[Shield.io]** was used for badges.
 
+
+<div align = center>
+
+![Mod Preview]
+
 <!----------------------------------------------------------------------------->
 
 [Commits]: https://img.shields.io/github/last-commit/oldyezero/steam-mod?label=Commit&style=plastic
 [Issues]: https://img.shields.io/github/issues-raw/oldyezero/steam-mod?label=Issues
 [Mindustry]: https://github.com/Anuken/Mindustry
 [Shield.io]: https://shields.io
+[Mod Preview]: github/mod-preview.png
 
 <!----------------------------------[ Badges ]--------------------------------->
 
