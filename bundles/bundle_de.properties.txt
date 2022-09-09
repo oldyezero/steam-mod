@@ -1,0 +1,34 @@
+#bundles de
+
+
+
+#blocks
+
+
+#blocks-power
+
+block.steam-mod-turbine.name = Turbine
+block.steam-mod-turbine.description = Benutzt Wasserdampf, um durch Rotoren Energie zu erzeugen.
+
+
+#blocks-crafting
+
+block.steam-mod-steam-press.name = Dampfpresse
+block.steam-mod-steam-press.description = Komprimiert mithilfe von Wasserdampf Kohle zu Graphit. Ist effizienter als eine normale Graphitpresse.
+
+block.steam-mod-water-boiler.name = Wasserboiler
+block.steam-mod-water-boiler.description = Macht mithilfe von Kohle Wasserdampf aus Wasser.
+
+
+#end of blocks
+
+
+#liquids
+
+liquid.steam-mod-steam.name = Wasserdampf
+liquid.steam-mod-steam.description = Wasser im gasförmigen Zustand.
+
+#end of liquids
+
+
+#end of bundles de
