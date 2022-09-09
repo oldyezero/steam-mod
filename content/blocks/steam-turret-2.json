@@ -1,0 +1,25 @@
+{
+  "localizedName": " ",
+  "description": "Shoots and generates Steam passively",
+  "type": "LiquidTurret",
+  "scaledHealth": 175,
+  "size": 3,
+  "category": "turret",
+  "research": "steam-turret",
+  "outputLiquid": {"liquid": "steam", "amount": 0.1},
+  "requirements": [
+    {"item": "copper", "amount": 1}  
+  ],
+  "ammoTypes": {
+    "water": {
+      "type": "BasicBulletType",
+      "damage": 20,
+      "height": 12,
+      "width": 8,
+      "status": "wet",
+      "statusDuration": 30
+    } 
+  },
+  "range": 240,
+  "reload": 60
+}
