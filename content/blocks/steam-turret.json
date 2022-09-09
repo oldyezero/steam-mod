@@ -19,7 +19,7 @@
   "loopSoundVolume": 1,
   "ammoTypes": {
     "steam": {
-      "damage": 25,
+      "damage": 12,
       "length": 180,
       "type": "ContinuousFlameBulletType",
       "knockback": 0.5,
