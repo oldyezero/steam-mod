@@ -1,5 +1,6 @@
-name: "steam-mod"
-displayName: "Steam Mod"
+name: steam-mod
+displayName: Steam Mod
+repo: oldyezero/steam-mod
 author: 
   '''
   oldyezero
@@ -17,3 +18,4 @@ description:
 version: 1.0
 hidden: false
 dependencies: [ ]
+minGameVersion: 138
