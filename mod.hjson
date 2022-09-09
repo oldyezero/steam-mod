@@ -1,8 +1,19 @@
 name: "steam-mod"
 displayName: "Steam Mod"
-author: oldyezero
-description: "Mod that adds steam to the game, used in various applications. Also available in German!"
-version: "1.0"
-minGameVersion: "138"
-dependencies: [ ]
+author: 
+  '''
+  oldyezero
+  '''
+description:
+  '''
+  
+  A small mod that adds Steam to the game.
+  
+  Steam is used for various applications.
+  
+  Also available in German!
+  
+  '''
+version: 1.0
 hidden: false
+dependencies: [ ]
