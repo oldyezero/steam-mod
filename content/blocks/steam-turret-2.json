@@ -15,11 +15,18 @@
       "type": "BasicBulletType",
       "damage": 20,
       "height": 12,
+      "speed": 4,
+      "lifetime": 60,
       "width": 8,
       "status": "wet",
       "statusDuration": 30
     } 
   },
-  "range": 240,
-  "reload": 60
+  "range": 180,
+  "reload": 40,
+  "shoot": {
+    "shots": 2,
+    "spread": 10,
+    "shotDelay": 15
+  },
 }
