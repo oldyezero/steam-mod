@@ -25,6 +25,9 @@ to the game and adds a way to use it for power and similar matters.
 
 <div align = center>
   
+  <br>
+  <br>
+  
 ## Preview
 
 ![Mod Preview]
