@@ -1,0 +1,56 @@
+{
+	"type": "GenericCrafter",
+	"name": "Steam Press",
+	"description": "Uses Steam to compress coal into graphite more efficiently than the normal graphite press.",
+	"liquidCapacity": 20,
+	"outputItem": {"item": "graphite", "amount": 1},
+	"size": 2,
+	"hasPower": false,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 60,
+	"updateEffect": "none",
+	"consumes": {
+		"items": {
+			"items": [
+				{ "item": "coal", "amount": 2 }
+			]
+		},
+		"liquid": {
+			"liquid": "steam",
+			"amount": 0.05
+		}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 75 },
+		{ "item": "lead", "amount": 30 },
+	],
+	"category": "crafting",
+	"research": "power-node",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5,
+	"craftEffect": {
+				"type": "ParticleEffect",
+				"particles": 16,
+				"length": 12,
+				"colorFrom": "e0e0e0",
+				"colorTo": "c4c4c4",
+				"sizeFrom": 0,
+				"sizeTo": 3
+			}
+		]
+	}
+	"drawer": {	
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawDefault"
+			},
+			{
+				"type": "DrawLiquidRegion",
+				"drawLiquid": "steam",
+				"suffix": "-liquid"
+			}
+		]
+	}
+}
