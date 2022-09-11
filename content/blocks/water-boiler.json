@@ -28,7 +28,7 @@
 		{ "item": "metaglass", "amount": 20 },
 	],
 	"category": "crafting",
-	"research": "power-node",
+	"research": "small-boiler",
 	"idleSound": "respawning",
 	"idleSoundVolume": 0.5,
 	"craftEffect": {

@@ -1,33 +1,35 @@
 {
 	"type": "GenericCrafter",
-	"name": "Small Boiler",
-	"description": "Uses coal to boil water at a low efficiency",
-	"liquidCapacity": 10,
-	"outputLiquid": {"liquid": "steam", "amount": 0.05},
-	"size": 1,
+	"name": "Industrial Boiler",
+	"description": "Turns water into steam at a perfect ratio, uses pyratite",
+	"liquidCapacity": 40,
+	"outputLiquid": {"liquid": "steam", "amount": 0.3},
+	"size": 3,
 	"hasPower": false,
 	"hasLiquids": true,
 	"hasItems": true,
-	"craftTime": 180,
+	"craftTime": 90,
 	"updateEffect": "none",
 	"consumes": {
 		"items": {
 			"items": [
-				{ "item": "coal", "amount": 1 }
+				{ "item": "pyratite", "amount": 1 }
 			]
 		},
 		"liquid": {
 			"liquid": "water",
-			"amount": 0.0834
+			"amount": 0.3
 		}
 	},
 	"requirements": [
-		{ "item": "copper", "amount": 20 },
-		{ "item": "lead", "amount": 20 },
-		{ "item": "metaglass", "amount": 5 },
+		{ "item": "copper", "amount": 400 },
+		{ "item": "lead", "amount": 300 },
+		{ "item": "graphite", "amount": 130 },
+		{ "item": "silicon", "amount": 200 },
+		{ "item": "metaglass", "amount": 60 },
 	],
 	"category": "crafting",
-	"research": "power-node",
+	"research": "water-boiler",
 	"idleSound": "respawning",
 	"idleSoundVolume": 0.5,
 	"craftEffect": {
