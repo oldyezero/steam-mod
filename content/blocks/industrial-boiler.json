@@ -32,39 +32,4 @@
 	"research": "water-boiler",
 	"idleSound": "respawning",
 	"idleSoundVolume": 0.5,
-	"craftEffect": {
-		"type": "MultiEffect",
-		"effects": [
-			{
-				"type": "WaveEffect",
-				"sizeFrom": 0,
-				"sizeTo": 17,
-				"colorFrom": "e0e0e0",
-				"colorTo": "c4c4c4",
-				"lifetime": 120
-			},
-			{
-				"type": "ParticleEffect",
-				"particles": 16,
-				"length": 12,
-				"colorFrom": "e0e0e0",
-				"colorTo": "c4c4c4",
-				"sizeFrom": 0,
-				"sizeTo": 3
-			}
-		]
-	}
-	"drawer": {	
-		"type": "DrawMulti",
-		"drawers": [
-			{
-				"type": "DrawDefault"
-			},
-			{
-				"type": "DrawLiquidRegion",
-				"drawLiquid": "water",
-				"suffix": "-liquid"
-			}
-		]
-	}
 }
