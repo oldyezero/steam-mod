@@ -1,14 +1,14 @@
 {
 	"type": "GenericCrafter",
-	"name": "Water Boiler",
-	"description": "Uses coal to boil water with slight loss of steam",
-	"liquidCapacity": 20,
-	"outputLiquid": {"liquid": "steam", "amount": 0.0834},
-	"size": 2,
+	"name": "Small Boiler",
+	"description": "Uses coal to boil water at a lower efficiency",
+	"liquidCapacity": 10,
+	"outputLiquid": {"liquid": "steam", "amount": 0.05},
+	"size": 1,
 	"hasPower": false,
 	"hasLiquids": true,
 	"hasItems": true,
-	"craftTime": 120,
+	"craftTime": 180,
 	"updateEffect": "none",
 	"consumes": {
 		"items": {
@@ -18,14 +18,13 @@
 		},
 		"liquid": {
 			"liquid": "water",
-			"amount": 0.1
+			"amount": 0.0834
 		}
 	},
 	"requirements": [
-		{ "item": "copper", "amount": 45 },
-		{ "item": "lead", "amount": 50 },
-		{ "item": "graphite", "amount": 25 },
-		{ "item": "metaglass", "amount": 20 },
+		{ "item": "copper", "amount": 20 },
+		{ "item": "lead", "amount": 20 },
+		{ "item": "metaglass", "amount": 5 },
 	],
 	"category": "crafting",
 	"research": "power-node",
