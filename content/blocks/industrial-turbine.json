@@ -1,0 +1,54 @@
+{
+	"type": "ConsumeGenerator",
+	"name": "Turbine",
+	"description": "Uses steam to rotate its blades, with no steam loss",
+	"liquidCapacity": 40,
+	"outputLiquid": {"liquid": "water", "amount": 0.3},
+	"size": 3,
+	"hasPower": true,
+	"hasItems": true,
+	"hasLiquids": true,
+	"consumeEffect": {
+				"type": "ParticleEffect",
+				"particles": 16,
+				"length": 12,
+				"colorFrom": "e0e0e0",
+				"colorTo": "c4c4c4",
+				"sizeFrom": 0,
+				"sizeTo": 3,
+				"interp": "pow2Out",
+				"lifetime": 90
+			},
+	"powerProduction": 30,
+	"consumes": {
+		"liquid": {
+			"liquid": "steam",
+			"amount": 0.3
+		}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 450 },
+		{ "item": "lead", "amount": 400 },
+		{ "item": "graphite", "amount": 100 },
+		{ "item": "silicon", "amount": 180 },
+		{ "item": "metaglass", "amount": 40 },
+	],
+	"category": "power",
+	"research": "turbine",
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawDefault"
+			},
+			{
+				"type": "DrawLiquidRegion",
+        "suffix": "-liquid",
+        "drawLiquid": "steam"
+			},
+			{
+				"type": "DrawWeave"
+			}
+		]
+	}
+}
