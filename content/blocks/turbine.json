@@ -15,7 +15,7 @@
 				"colorFrom": "e0e0e0",
 				"colorTo": "c4c4c4",
 				"sizeFrom": 0,
-				"sizeTo": 1,
+				"sizeTo": 2,
 				"interp": "pow2Out",
 				"lifetime": 45
 			},
