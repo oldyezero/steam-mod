@@ -45,7 +45,9 @@
         "drawLiquid": "steam"
 			},
 			{
-				"type": "DrawWeave"
+				"type": "DrawBlurSpin",
+        "suffix": "-rotator",
+        "rotateSpeed": 12
 			}
 		]
 	}
